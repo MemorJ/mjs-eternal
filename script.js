@@ -1,8 +1,6 @@
 // ===== Configuration =====
 const CONFIG = {
   password: 'memorj', // Change this to your secret password (case-insensitive)
-  musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-  musicVolume: 0.3
 };
 
 // ===== Media Items =====
@@ -40,6 +38,7 @@ const mediaItems = [
     id: 3,
     type: 'video',
     src: 'media/vid1.mp4',
+    poster: 'media/cover1.png',
     date: 'December 25, 2021',
     caption: '*Occasion*',
     rotation: -3,
@@ -82,6 +81,7 @@ const mediaItems = [
     id: 6,
     type: 'video',
     src: 'media/vid2.mp4',
+    poster: 'media/cover2.png',
     date: 'Octuber 8, 2023',
     caption: '*Occasion*',
     rotation: 6,
