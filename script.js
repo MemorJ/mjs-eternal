@@ -1,6 +1,8 @@
 // ===== Configuration =====
 const CONFIG = {
   password: 'memorj', // Change this to your secret password (case-insensitive)
+  musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+  musicVolume: 0.3
 };
 
 // ===== Media Items =====
