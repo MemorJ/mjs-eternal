@@ -333,7 +333,7 @@ function createPolaroids() {
     const mediaHtml = item.type === 'image' 
       ? `<img src="${item.src}" alt="${item.date}" alt="${item.caption}" loading="lazy">`
       : `
-        <video src="${item.src}" muted></video>
+        <video src="${item.src}" poster="${item.poster}" muted playsinline preload="metadata"></video>
         <div class="video-overlay">
           <div class="play-button">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
